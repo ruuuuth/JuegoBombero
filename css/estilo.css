@@ -1,0 +1,17 @@
+/* la letra pixel del juego */
+@font-face {
+  font-family: "GrauPixel";
+  src: url("../fonts/GrauPixel.ttf");
+}
+
+/* el juego ocupa toda la ventana */
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0d0e17;
+  overflow: hidden;
+}
+#juego {
+  width: 100%;
+  height: 100%;
+}

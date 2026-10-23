@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Bomberos: Misión Selva</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <!-- aquí Phaser dibuja el juego -->
+  <div id="juego"></div>
+
+  <!-- 1) la librería Phaser -->
+  <script src="js/lib/phaser.min.js"></script>
+
+  <!-- 2) nuestros archivos (el orden importa: cada uno usa lo de los anteriores) -->
+  <script src="js/config.js"></script>
+  <script src="js/voz.js"></script>
+  <script src="js/utilidades.js"></script>
+  <script src="js/niveles.js"></script>
+
+  <!-- 3) las escenas -->
+  <script src="js/escenas/Carga.js"></script>
+  <script src="js/escenas/Titulo.js"></script>
+  <script src="js/escenas/Identificar.js"></script>
+  <script src="js/escenas/Texto.js"></script>
+  <script src="js/escenas/Intro.js"></script>
+  <script src="js/escenas/Fondo.js"></script>
+  <script src="js/escenas/Juego.js"></script>
+  <script src="js/escenas/Hud.js"></script>
+  <script src="js/escenas/Fin.js"></script>
+
+  <!-- 4) arrancar -->
+  <script src="js/main.js"></script>
+</body>
+</html>
